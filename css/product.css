@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* -------bara_nevegacio ---------*/
+
+:root{
+    --grem-color:#7acc2d;
+    --white-color:white;
+    --black:black;
+    /*tipografia*/
+    --normal: 12px;
+    /*espacio*/
+    --space:10px;
+}
+/*---------------------variales------------------------------*/
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family:  'Open Sans', sans-serif;
+}
+
+nav{
+    background-color:var(--grem-color) ;
+    display: flex;
+    justify-content: space-between; /*pone los elementos a cada extremo*/
+    align-items: center; /* centrar verticalmente el contenido */
+    color: var(--black);
+
+}
+
+.logo{
+    text-align: center;
+    margin-left: 10px;
+}
+
+div ul{
+    display:flex;
+}
+
+nav li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.productos{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 80%;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.producto{
+    margin-left: 5%;
+    margin-top: 10%;
+    /* margin-bottom: 9%; */
+}
+
+.text{
+    padding-left: 10%;
+}
+
+.section{
+    /* background-color: red; */
+    width: 80%;
+    margin-left: 10%;
+}
+
+.image img{
+    width: 250px;
+}
